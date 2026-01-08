@@ -14,7 +14,6 @@ spec:
       containers:
       - name: coordinates-api
         image: naftali96/coordinates_api:v3 
-
         ports:
           containerPort: 8000
         env:
