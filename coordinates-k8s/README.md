@@ -146,11 +146,11 @@ Complete the `Dockerfile` in the root directory. It should:
 ### Step 2: Create Docker Image
 
 ```bash
-docker build -t coordinates-api:v1 .
+docker build -t naftali96/coordinates-api:v3 .
 ```
 
 Push to your registry (Docker Hub example):
 ```bash
-docker push yourusername/coordinates-api:v1
+docker push naftali96/coordinates-api:v3
 ```
 
