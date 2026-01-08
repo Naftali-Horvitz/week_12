@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: postgres-svc
 spec:
-  ClusterIP: None
+  clusterIP: None
   type: ClusterIP
   selector:
     app: postgres-pod
   ports:
   - port: 5432
-    targetport: 5432
+    targetPort: 5432
