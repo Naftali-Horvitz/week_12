@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres-svc
+spec:
+  ClusterIP: None
+  type: ClusterIP
+  selector:
+    app: postgres-pod
+  ports:
+  - port: 5432
+    targetport: 5432
